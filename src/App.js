@@ -1,4 +1,4 @@
-import "./App.css"
+import "./App.css";
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
         for(let row=0;row<gridSize;row++){
             for(let col=0;col<gridSize;col++){
                 let className = "grid-item";
-                let cell = <div className={className} key={'${row}-${col}'}></div>
+                let cell = <div className={className} key={`${row}-${col}`}></div>
                 cellArray.push(cell);
             }
         }
