@@ -37,3 +37,9 @@ body{
     display: grid;
     grid-template: repeat(25,1fr)/repeat(25,1fr);
 }
+
+/* canvas{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+} */
